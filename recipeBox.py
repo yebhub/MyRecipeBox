@@ -3,6 +3,8 @@ from requests import get
 from csv import reader, writer 
 import json 
 
+#we use BeautifulSoup and requests to scrape recipes from the new york times so that we can, eventually, use them in our Alexa skill. 
+
 all_recipes = []
 url = 'https://cooking.nytimes.com/68861692-nyt-cooking/21636-icy-cold-desserts-from-mark-bittman-and-more'
 response = get(url)
