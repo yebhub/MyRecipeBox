@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from requests import get 
 from csv import reader, writer 
 import json 
-
+import rook
 #we use BeautifulSoup and requests to scrape recipes from the new york times so that we can, eventually, use them in our Alexa skill. 
 
 all_recipes = []
